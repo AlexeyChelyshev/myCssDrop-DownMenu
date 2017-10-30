@@ -1,0 +1,49 @@
+body{
+    background-image: url("../img/back.jpg");
+}
+header{
+    margin: 200px;
+    font-family: Cuprum, Arial, sans-serif;
+}
+.dws-menu{
+    margin-top: 0;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+
+.dws-menu > ul{
+    display: flex;
+    justify-content: center
+
+}
+
+.dws-menu > ul li a{
+    display: block;
+    background: #cecece;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dws-menu > ul li{
+    position:  relative;
+    border-right: 1px solid #454547;
+}
+.dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+.dws-menu>ul li:first-child{
+    border-left: 1px solid #454547;
+}
+.dws-menu > ul li:last-child{
+    border-right: 1px solid #454547;
+}
