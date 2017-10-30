@@ -29,6 +29,7 @@ header{
     color: #454547;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 .dws-menu > ul li{
@@ -46,4 +47,10 @@ header{
 }
 .dws-menu > ul li:last-child{
     border-right: 1px solid #454547;
+}
+.dws-menu li a:hover{
+    background: #454547;
+    color: #eeeeee;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
 }
